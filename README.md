@@ -69,7 +69,7 @@ I’m passionate about **efficiency, reliability, and automation** — and I lov
 
 ## 📫 Contact Me
 📧 **wilsonmanda.devops@gmail.com**  
-🌐 [LinkedIn](https://linkedin.com/in/wilsonmanda)  
+🌐 [LinkedIn](https://linkedin.com/in/wilson-manda-620820259)  
 💻 [GitHub](https://github.com/wilsonmanda)
 
 ---
