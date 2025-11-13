@@ -1,0 +1,30 @@
+
+**`Jenkinsfile`**
+```groovy
+pipeline {
+    agent any
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/wilsonmanda/sample-app.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo "Building application..."
+                sh 'mvn clean package'
+            }
+        }
+        stage('Archive Artifact') {
+            steps {
+                archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo "Deploying to test server..."
+                sh 'scp target/*.jar ec2-user@your-server:/opt/app/'
+            }
+        }
+    }
+}

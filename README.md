@@ -1,4 +1,3 @@
-# wilsonmanda-portfolio
 # 👋 Hi, I'm Wilson Manda  
 
 🚀 **AWS DevOps Engineer | Terraform | Jenkins | Docker | CI/CD | Cloud Automation**
